@@ -1,0 +1,100 @@
+2019-06-11 14:46:53,033 ERROR 14414 [-/127.0.0.1/-/1ms GET /] nodejs.MODULE_NOT_FOUNDError: Cannot find module '/root/work/node_modules/sqlite3/lib/binding/node-v64-linux-x64/node_sqlite3.node'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:690:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/root/work/node_modules/sqlite3/lib/sqlite3.js:4:15)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+code: "MODULE_NOT_FOUND"
+name: "MODULE_NOT_FOUNDError"
+pid: 14414
+hostname: xander
+
+2019-07-11 17:28:36,541 ERROR 14399 [-/127.0.0.1/-/1020ms GET /news/detail/13] nodejs.Error: non-error thrown: [object Object]
+    at Object.app.context.onerror (/home/xander/Desktop/work/CMS/qiku-cms/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/home/xander/Desktop/work/CMS/qiku-cms/node_modules/koa/lib/application.js:148:32)
+
+pid: 14399
+hostname: xander
+
+2019-07-11 17:28:42,084 ERROR 14399 [-/127.0.0.1/-/1003ms GET /news/detail/13] nodejs.Error: non-error thrown: [object Object]
+    at Object.app.context.onerror (/home/xander/Desktop/work/CMS/qiku-cms/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/home/xander/Desktop/work/CMS/qiku-cms/node_modules/koa/lib/application.js:148:32)
+
+pid: 14399
+hostname: xander
+
+2019-07-11 17:29:03,235 ERROR 14399 [-/127.0.0.1/-/1003ms GET /news/detail/13] nodejs.Error: non-error thrown: [object Object]
+    at Object.app.context.onerror (/home/xander/Desktop/work/CMS/qiku-cms/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/home/xander/Desktop/work/CMS/qiku-cms/node_modules/koa/lib/application.js:148:32)
+
+pid: 14399
+hostname: xander
+
+2019-07-11 17:29:20,786 ERROR 14399 [-/127.0.0.1/-/1003ms GET /news/detail/18] nodejs.Error: non-error thrown: [object Object]
+    at Object.app.context.onerror (/home/xander/Desktop/work/CMS/qiku-cms/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/home/xander/Desktop/work/CMS/qiku-cms/node_modules/koa/lib/application.js:148:32)
+
+pid: 14399
+hostname: xander
+
+2019-07-11 17:30:05,683 ERROR 14545 [-/127.0.0.1/-/1032ms GET /news/detail/18] nodejs.Error: non-error thrown: [object Object]
+    at Object.app.context.onerror (/home/xander/Desktop/work/CMS/qiku-cms/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/home/xander/Desktop/work/CMS/qiku-cms/node_modules/koa/lib/application.js:148:32)
+
+pid: 14545
+hostname: xander
+
+2019-07-11 17:30:34,883 ERROR 14545 [-/127.0.0.1/-/1004ms GET /news/detail/17] nodejs.Error: non-error thrown: [object Object]
+    at Object.app.context.onerror (/home/xander/Desktop/work/CMS/qiku-cms/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/home/xander/Desktop/work/CMS/qiku-cms/node_modules/koa/lib/application.js:148:32)
+
+pid: 14545
+hostname: xander
+
+2019-07-11 17:31:09,985 ERROR 14545 [-/127.0.0.1/-/1004ms GET /news/detail/14] nodejs.Error: non-error thrown: [object Object]
+    at Object.app.context.onerror (/home/xander/Desktop/work/CMS/qiku-cms/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/home/xander/Desktop/work/CMS/qiku-cms/node_modules/koa/lib/application.js:148:32)
+
+pid: 14545
+hostname: xander
+
+2019-07-11 17:31:51,847 ERROR 14545 [-/127.0.0.1/-/1004ms GET /news/detail/17] nodejs.Error: non-error thrown: [object Object]
+    at Object.app.context.onerror (/home/xander/Desktop/work/CMS/qiku-cms/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/home/xander/Desktop/work/CMS/qiku-cms/node_modules/koa/lib/application.js:148:32)
+
+pid: 14545
+hostname: xander
+
+2019-07-11 17:31:59,889 ERROR 14545 [-/127.0.0.1/-/1005ms GET /news/detail/14] nodejs.Error: non-error thrown: [object Object]
+    at Object.app.context.onerror (/home/xander/Desktop/work/CMS/qiku-cms/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/home/xander/Desktop/work/CMS/qiku-cms/node_modules/koa/lib/application.js:148:32)
+
+pid: 14545
+hostname: xander
+
+2019-07-18 10:53:13,058 ERROR 14974 [-/127.0.0.1/-/39ms POST /api/WebsiteCms/ProductService/Case/EditCase?id=16] nodejs.Error: non-error thrown: [object Object]
+    at Object.app.context.onerror (/home/xander/Desktop/work/CMS/qiku-cms/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/home/xander/Desktop/work/CMS/qiku-cms/node_modules/koa/lib/application.js:148:32)
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:6060","vary":"Origin"}
+pid: 14974
+hostname: xander
+
+2019-07-18 10:53:58,807 ERROR 14974 [-/127.0.0.1/-/5ms POST /api/WebsiteCms/ProductService/Case/EditCase?id=16] nodejs.Error: non-error thrown: [object Object]
+    at Object.app.context.onerror (/home/xander/Desktop/work/CMS/qiku-cms/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/home/xander/Desktop/work/CMS/qiku-cms/node_modules/koa/lib/application.js:148:32)
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:6060","vary":"Origin"}
+pid: 14974
+hostname: xander
+
+2019-07-18 10:54:51,292 ERROR 15155 [-/127.0.0.1/-/42ms POST /api/WebsiteCms/ProductService/Case/EditCase?id=16] nodejs.Error: non-error thrown: [object Object]
+    at Object.app.context.onerror (/home/xander/Desktop/work/CMS/qiku-cms/node_modules/koa-onerror/index.js:39:24)
+    at onerror (/home/xander/Desktop/work/CMS/qiku-cms/node_modules/koa/lib/application.js:148:32)
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:6060","vary":"Origin"}
+pid: 15155
+hostname: xander
+

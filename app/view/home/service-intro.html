@@ -1,0 +1,167 @@
+{% extends "./common/layout.html" %}
+
+{% block content %}
+
+{% include "./common/top-banner.html" %}
+{% include "./common/breadcrumb.html" %}
+
+{# info-page #}
+<section class="info-page">
+    <div class="container">
+        <section class="info-page__part col-md-12">
+            <!-- <div class="common-title">
+                <ul class="clearfix">
+                    {% for item in list %}
+                    <li>
+                            {% if item.caseUrl %}
+                        <a href="{{ item.caseUrl }}">
+                            <div class="s3-mn-list">
+                                <img src="/public/home/images/logo.png">
+                                <div>
+                                    <div class="s3-mh-l-bj"></div>
+                                    <div class="s3-mn-l-head">{{ item.title }}</div>
+                                </div>
+                            </div>
+                        </a>
+                        {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div> -->
+            <div class="section2">
+                <div class="M-what-top M-what-top2">
+                  <img src="/public/home/images/xt4.png">
+                  <span>OUR SERVICE</span>
+                </div>
+                <div class="my2-lisde">
+                  <div class="hd clearfix">
+                    <ul>
+                      <li class="on"><div class="xico1"></div></li>
+                      <li class=""><div class="xico2"></div></li>
+                      <li class=""><div class="xico3"></div></li>
+                    </ul>
+                  </div>
+                  <div class="bd">
+                    <ul style="display: block;">
+                      <div class="mytable clearfix">
+                        <div class="myt-left fl">
+                          <div class="myt-t1">陕西骑酷智慧城市解决方案</div>
+                          <div class="myt-t2">基于物联网、云计算等新一代信息技术以及社交等综合集成工具和方法的应用</div>
+                          <div class="myt-t3">营造利于创新涌现的生态，实现全面透彻的感知、宽带泛在的互联、智能融合的应用以及以用户创新、开放创新、大众创新、协同创新为特征的可持续创新。</div>
+                          <div class="myt-list clearfix">
+                            <ul class="clearfix">
+                              <li>智能交通系统</li>
+                              <li>智能能源系统</li>
+                              <li>智慧物流及建筑服务系统</li>
+                              <li>城市指挥中心</li>
+                              <li>城市公共安全</li>
+                              <li>城市公共安全</li>
+                              <li>政府公共服务平台</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="fr"><img src="/public/home/images/ximg3.png"></div>
+                      </div>
+                    </ul>
+                    <ul style="display: none;">
+                      <div class="mytable clearfix">
+                        <div class="myt-left fl">
+                          <div class="myt-t1">物联网安防系统</div>
+                          <div class="myt-t2" style="font-size:14px;">全局掌控的管控体系 </div>
+                          <div class="myt-list2 clearfix">
+                            <ul class="clearfix">
+                              <li class="clearfix">
+                                <div class="myxico1 fl"><img src="/public/home/images/xbj13.png"></div>
+                                <div class="myxicofr fl">
+                                  <b>电商品牌咨询</b>
+                                  <span>品牌电商化策略、定位</span>
+                                </div>
+                              </li>
+                              <li class="clearfix">
+                                <div class="myxico1 fl"><img src="/public/home/images/xbj14.png"></div>
+                                <div class="myxicofr fl">
+                                  <b>电商视觉营销与运营</b>
+                                  <span>店铺/UED/UE/HTML5/APP </span>
+                                </div>
+                              </li>
+                              <li class="clearfix">
+                                <div class="myxico1 fl"><img src="/public/home/images/xbj15.png"></div>
+                                <div class="myxicofr fl">
+                                  <b>爆款策划与设计</b>
+                                  <span>产品策划、产品定位与设计、<br>包装设计、定位</span>
+                                </div>
+                              </li>
+                              <li class="clearfix">
+                                <div class="myxico1 fl"><img src="/public/home/images/xbj16.png"></div>
+                                <div class="myxicofr fl">
+                                  <b>电商引流聚粉</b>
+                                  <span>社区与粉丝运营、微信微博新媒<br>体营销、线上线下活动策划</span>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>                
+                        </div>
+                        <div class="fr"><img src="/public/home/images/ximg4.png"></div>
+                      </div>
+                    </ul>
+                    <ul style="display: none;">
+                      <div class="mytable clearfix">
+                        <div class="myt-left fl">
+                          <div class="myt-t1">数字营销</div>
+                          <div class="myt-t2" style="font-size:14px;">为企业提供咨询策划、创意设计、技术开发、运营维护、营销推广在内的全面服务体系</div>
+                          <div class="myt-list clearfix">
+                            <div class="fl myt-l1">
+                              <b>数字营销平台建设</b>
+                              <span>响应式网站设计与开发</span>
+                              <span>APP设计与开发</span>
+                              <span>微信定制化开发</span>
+                              <span>电子商务平台建设</span>
+                            </div>
+                            <div class="fl myt-l1">
+                              <b>新媒体运营</b>
+                              <span>内容运营</span>
+                              <span>活动策划</span>
+                              <span>粉丝经营</span>
+                              <span>社会化渠道整合</span>
+                              <span>销售转化</span>
+                            </div>
+                            <div class="fl myt-l1" style="width:170px;">
+                              <b>社会化CRM运营</b>
+                              <span>用户服务</span>
+                              <span>数据挖掘</span>
+                              <span>二次营销</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="fr"><img src="/public/home/images/ximg5.png"></div>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </section>
+    </div>
+</section>
+
+{% endblock %}
+
+{% block script %}
+
+<script src="/public/home/js/jquery-1.11.3.min.js"></script>
+<script>
+  // 我们的服务
+  $(".hd > ul li:nth-child(1)").click(function(){
+    $(this).addClass("on").siblings().removeClass("on")
+    $(".bd ul:nth-child(1)").css({"display":"block"}).siblings().css({"display":"none"})
+  })
+  $(".hd > ul li:nth-child(2)").click(function(){
+    $(this).addClass("on").siblings().removeClass("on")
+    $(".bd ul:nth-child(2)").css({"display":"block"}).siblings().css({"display":"none"})
+  })
+  $(".hd > ul li:nth-child(3)").click(function(){
+    $(this).addClass("on").siblings().removeClass("on")
+    $(".bd ul:nth-child(3)").css({"display":"block"}).siblings().css({"display":"none"})
+  })
+</script>
+
+{% endblock %}
